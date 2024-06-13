@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: rgba(199, 206, 206, 0.616);
+    font-size: 20px;
+}
+
+header{
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* height: 4.5rem; */
+}
+
+nav > *{
+    height: 100%;
+}
+
+nav .search-section{
+    background-color: #f0f5ff;
+    height: 100%;
+    border-radius: 5px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  0px 0px 0px 20px;
+}
+
+nav .search-section i{
+    width: 5%;
+}
+nav .search-section input{
+    padding: 10px 20px;
+    border: 0;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 95%;
+    height: 100%;
+    text-overflow: ellipsis;
+}
+
+nav .user-account #account{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+nav .user-account #account .bx-user-circle{
+    margin-right: 5px;
+}
+
+nav .user-account .bx-chevron-down{
+    transition: all 0.2s ease-in-out;
+}
+
+nav .user-account .profile-options{
+    position: relative;
+    /* height: 100px; */
+}
+
+nav .user-account .profile-options ul{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+    left: 20px;
+    height: auto;
+    width: 230px;
+    padding: 10px 30px;
+    font-size: 17px;
+    background-color: rgb(255, 252, 252);
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0.1px #000;
+}
+
+
+nav .user-account .profile-options ul li{
+    list-style: none;
+    margin: 15px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav .user-account .profile-options ul li i{
+    margin-right: 10px;
+}
+
+.container-1{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.container-1 .products{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 300px 0px 300px;
+}
+
+.container-2{
+    margin-bottom: 10px;
+}
+
+.container-2 .slider{
+    width: 90%;
+    margin: auto;
+}
+
+.container-2 .slider .carousel-indicators button{
+    width: 6px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(253, 253, 253);
+}
+
+.container-3{
+    background-color: #fff;
+    margin-bottom: 10px;
+    width: 90%;
+    margin: auto;
+    padding: 0px 20px 0px;
+}
+
+.container-3 .card-items {
+    overflow-x: scroll;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.container-3 .card-items .my-card{
+    width: 170px;
+    margin: 0px 10px;
+}
+.container-3 .card-items .my-card img{
+    width: 170px;
+}
